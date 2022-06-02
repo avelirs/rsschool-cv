@@ -1,3 +1,3 @@
 #Sibilev Anton
 ## Contacts
-*sibilevanton6@gmail.com
+* sibilevanton6@gmail.com

@@ -2,4 +2,4 @@
 
 https://avelirs.github.io/rsschool-cv/cv
 
-https://avelirs.github.io/rsschool-cv/index.html 
+https://github.com/avelirs/rsschool-cv/blob/main/index.html

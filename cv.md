@@ -26,6 +26,7 @@ As a results-driven professional with a background in sales management, I'm exci
 * Django
 * React
 * Bootstrap
+* Next JS
 
 ### Methodologies and tools
 

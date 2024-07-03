@@ -37,8 +37,8 @@ As a results-driven professional with a background in sales management, I'm exci
 **Code Exemple**
 ===============
 
-* [GitHub repository with example code](https://github.com/your_username/example_code)
-* [CodePen example](https://codepen.io/your_username/pen/example)
+* (https://github.com/avelirs/HOME)
+
 
 **Education**
 =============

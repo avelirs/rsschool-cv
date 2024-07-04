@@ -1,12 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <title>CV</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Document</title>
   </head>
   <body>
-    <!-- content here -->
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">John Doe</span> CV</h1>
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <div class="container">
+        <section id="about">
+          <h2>About Me</h2>
+          <img
+            src="/api/placeholder/200/200"
+            alt="John Doe"
+            class="profile-img"
+          />
+          <p>
+            I am a passionate web developer with a keen interest in creating
+            responsive and user-friendly websites. With a strong foundation in
+            HTML, CSS, and JavaScript, I am always eager to learn new
+            technologies and improve my skills.
+          </p>
+        </section>
+
+        <section id="contact">
+          <h2>Contact Information</h2>
+          <ul>
+            <li>Email: john.doe@example.com</li>
+            <li>Phone: +1 (555) 123-4567</li>
+            <li>
+              LinkedIn:
+              <a href="https://www.linkedin.com/in/johndoe"
+                >linkedin.com/in/johndoe</a
+              >
+            </li>
+            <li>
+              GitHub:
+              <a href="https://github.com/johndoe">github.com/johndoe</a>
+            </li>
+          </ul>
+        </section>
+
+        <section id="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Git</li>
+          </ul>
+        </section>
+
+        <section id="code-example">
+          <h2>Code Example</h2>
+          <pre><code>
+function fibonacci(n) {
+    if (n <= 1) return n;
+    return fibonacci(n - 1) + fibonacci(n - 2);
+}
+
+console.log(fibonacci(10)); // Output: 55
+                </code></pre>
+        </section>
+
+        <section id="projects">
+          <h2>Projects</h2>
+          <ul>
+            <li>
+              <a href="https://github.com/johndoe/project1">Weather App</a> - A
+              responsive weather application using OpenWeatherMap API
+            </li>
+            <li>
+              <a href="https://github.com/johndoe/project2">Task Manager</a> - A
+              full-stack task management application built with MERN stack
+            </li>
+            <li>
+              <a href="https://github.com/johndoe/project3"
+                >Portfolio Website</a
+              >
+              - Personal portfolio website showcasing my projects and skills
+            </li>
+          </ul>
+        </section>
+
+        <section id="education">
+          <h2>Education</h2>
+          <ul>
+            <li>
+              Bachelor of Science in Computer Science, University of Technology,
+              2018-2022
+            </li>
+            <li>Full Stack Web Development Bootcamp, Code Academy, 2022</li>
+          </ul>
+          <p>English Level: C1 (Advanced)</p>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2024 John Doe | <a href="https://github.com/johndoe">GitHub</a> |
+        <a href="https://rs.school/js/">The Rolling Scopes School</a>
+      </p>
+    </footer>
   </body>
 </html>

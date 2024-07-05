@@ -1,12 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
     <title>CV</title>
   </head>
   <body>
-    <!-- content here -->
+    <header>
+      <div class="container-head">
+        <div id="branding">
+          <h1><span class="highlight">Anton Sibilev</span> CV</h1>
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <div class="container">
+        <section id="about">
+            
+          <h2>About Me</h2>
+         <div class="main-content"><img src="/profile.png" alt="avatar-profile" class="profile-img" />
+                <p>
+                    I'm a passionate developer with a strong interest in building user-friendly websites.<br> Previously, I worked in sales, but now  I'm excited to make a career change and pursue <br> my dream of becoming a software engineer
+                </p></div>
+          
+        </section>
+
+        <section id="contact">
+          <h2>Contact Information</h2>
+          <ul>
+            <li>Email: avellir@gmail.com</li>
+
+            <li>
+              LinkedIn:
+              <a href="https://www.linkedin.com/in/avellir"
+                >linkedin.com/in/avelir</a
+              >
+            </li>
+            <li>
+              GitHub:
+              <a href="https://github.com/avelirs">github.com/avelirs</a>
+            </li>
+          </ul>
+        </section>
+
+        <section id="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Git</li>
+          </ul>
+        </section>
+
+        <section id="code-example">
+          <h2>Code Example</h2>
+          <pre><code>
+            function myFunction() {
+                document.getElementById("demo").innerHTML = "Hello World!";
+              }
+              
+                </code></pre>
+        </section>
+
+        <section id="projects">
+          <h2>Projects</h2>
+          <ul>
+            <li>
+              <a href="https://github.com/avelirs/weather-app">Weather App</a> -
+              A responsive weather application using OpenWeatherMap API
+            </li>
+            <li>
+              <a href="https://github.com/avelirs/HOME">Task Manager</a> - A
+              full-stack task management application 
+            </li>
+            <li>
+              <a href="https://github.com/avelirs/rsschool-cv"
+                >Portfolio Website</a
+              >
+              - Personal portfolio website showcasing my projects and skills
+            </li>
+          </ul>
+        </section>
+
+        <section id="education">
+          <h2>Education</h2>
+          <ul>
+            <li>
+              Bachelor of Economy-Cybernatics , University of Economy Kharkiv,
+              2018-2022
+            </li>
+            <li>Full Stack Web Development Bootcamp, Code Academy, 2022</li>
+            <li>English Level: C1 (Advanced)</li>
+          </ul>
+          
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      &copy; 2024 | <a href="https://github.com/johndoe">GitHub</a> |
+        <a href="https://rs.school/courses/javascript-ru"><img src="/rs-school-logo.svg"></a>
+ </footer>
   </body>
 </html>
